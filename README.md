@@ -40,6 +40,8 @@ stat_types = [
 Scrape and generate CSV using [`uv`](https://github.com/astral-sh/uv):
 
 ```bash
+# clear cache
+rm -rf .cache/
 # fetch yesterday only
 uv run scrape.py
 # or fetch the last 30 days
